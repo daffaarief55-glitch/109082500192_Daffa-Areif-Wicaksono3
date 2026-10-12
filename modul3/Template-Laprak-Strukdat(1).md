@@ -167,7 +167,7 @@ int main(){
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![output1]https://github.com/daffaarief55-glitch/109082500192_Daffa-Areif-Wicaksono3/blob/main/modul3/output_unguided/output1.png?raw=true
 
 
 
