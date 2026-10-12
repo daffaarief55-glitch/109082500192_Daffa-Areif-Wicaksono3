@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 3 - Abstrak Data Type Bahas C++ (</h1>
+# <h1 align="center">Laporan Praktikum Modul 3 - Abstrak Data Type Bahas C++ </h1>
 <p align="center">Daffa Arief Wicaksono - 109082500192</p>
 
 ## Dasar Teori
