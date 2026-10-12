@@ -2,21 +2,31 @@
 <p align="center">Muhammad Dhimas Hafizh Fathurrahman - 2311102151</p>
 
 ## Dasar Teori
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+Dalam pemrograman, data perlu disusun dan dikelola supaya lebih mudah digunakan. Salah satu konsep yang dapat digunakan adalah Abstract Data Type (ADT). ADT menggabungkan definisi suatu tipe data dengan operasi yang dapat dilakukan terhadap data tersebut. Dengan konsep ini, programmer dapat mengatur data dan fungsi yang berkaitan agar program lebih terstruktur [1].
 
-### A. ...<br/>
-...
-#### 1. ...
-#### 2. ...
-#### 3. ...
+### A. Abstract Data Type (ADT)<br/>
+Abstract Data Type atau ADT merupakan konsep yang menjelaskan bentuk suatu data beserta operasi yang bisa digunakan untuk mengolahnya. Setiap ADT mempunyai tipe data dan operasi tertentu sesuai dengan kebutuhan. Konsep ini dapat diterapkan untuk berbagai jenis data, misalnya data mahasiswa yang terdiri dari NIM dan nilai [1].
+#### 1. ADT digunakan untuk mengelompokkan data dan menyediakan operasi yang berhubungan dengan data tersebut. Contohnya, data mahasiswa dapat dibuat dalam satu tipe data yang berisi NIM serta dua nilai mata kuliah. Data tersebut kemudian dapat diproses menggunakan fungsi untuk menerima masukan atau menghitung nilai rata-rata. Dengan begitu, pengolahan data dapat dilakukan melalui fungsi yang sesuai dengan kegunaannya [1].
 
-### B. ...<br/>
-...
-#### 1. ...
-#### 2. ...
-#### 3. ...
+#### 2. Komponen dan Operasi ADT
+Dalam ADT terdapat beberapa operasi dengan tugas yang berbeda. Konstruktor digunakan untuk membuat nilai atau objek, sedangkan selector berfungsi mengambil bagian data tertentu. Ada juga operasi untuk mengubah nilai dan memeriksa apakah data sesuai dengan ketentuan. Selain itu, ADT dapat menyediakan operasi untuk memasukkan dan menampilkan data, membandingkan nilai, melakukan perhitungan, mengubah tipe data, serta membebaskan memori yang digunakan oleh objek [1].
+
+
+#### 3. Kegunaan ADT
+
+ADT membantu programmer mengelompokkan data dan operasi yang saling berhubungan. Pengelompokan tersebut membuat susunan kode lebih jelas sehingga program lebih mudah dipahami dan diperbaiki. Selain itu, operasi yang telah dibuat dapat dipanggil kembali ketika dibutuhkan dalam bagian program lainnya [1].
+
+### B.  Penerapan ADT pada Bahasa C++<br/>
+Bahasa C++ dapat digunakan untuk menerapkan ADT dengan membuat tipe data dan fungsi yang mengelola data tersebut. Berdasarkan modul praktikum, penerapan ADT dilakukan dengan membagi program menjadi file header (.h), file implementasi (.cpp), dan file utama yang berfungsi sebagai driver [1].
+
+#### 1. pembuatn tipe data menggunakan struct
+Pada bahasa c++, sturct digunakan untuk menggabungkan beberapa variabel ke dalam satu kelompok.Misalnya,struktur mahsiswa dapet berisi NIM,nilai pertama dan nilai kedua,seluruhh komponen teersebut dapat disimpan dalam satu variabel bertipe mahasiswa,sehingga data yang berkaitan dapat dikelola bersama[1].
+
+#### 2. Fungsi file header dan fungsi implementasi
+file header(.h)di gunakan untuk menuliskan deklarasi tipe data serta fungsi yang tersedia.Adapun file implementasi(.cpp)bersi kode yang menjalnkan fungsi-fungsi tersebut.Pembagian ini membuat bagian yang menjelaskan fungsi dan bagian yang berisi proses kerjanya tersimpan secara terpisah,dengan demikian ,susunan program menjadi lebih teratur dan lebih mudah di kembangkan[1]
+
+#### 3. Peran File Program Utama
+File program utama atau driver digunakan untuk menjalankan program dengan memanfaatkan ADT yang sudah dibuat. Dalam C++, proses tersebut dilakukan melalui fungsi main(). File utama dapat memanggil fungsi yang sudah dideklarasikan pada file header dan diimplementasikan dalam file .cpp. Sebagai contoh, program utama dapat memanggil fungsi untuk memasukkan data mahasiswa, kemudian menggunakan fungsi lainnya untuk menghitung dan menampilkan nilai rata-rata [1].
 
 ## Guided 
 
