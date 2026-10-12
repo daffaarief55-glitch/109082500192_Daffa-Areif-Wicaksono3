@@ -90,7 +90,7 @@ Kode ini digunakan untuk mengisi data mahasiswa melalui fungsi inputMHS(), lalu 
 
 ## Unguided 
 
-###  (Buat program yang dapat menyimpan data mahasiswa (max. 10) ke dalam sebuah array dengan field nama, nim, uts, uas, tugas, dan nilai akhir. Nilai akhir diperoleh dari FUNGSI dengan rumus 0.3*uts+0.4*uas+0.3*tugas.)
+### 1. (Buat program yang dapat menyimpan data mahasiswa (max. 10) ke dalam sebuah array dengan field nama, nim, uts, uas, tugas, dan nilai akhir. Nilai akhir diperoleh dari FUNGSI dengan rumus 0.3*uts+0.4*uas+0.3*tugas.)
 
 ### 1.latihan1.h
 
@@ -250,12 +250,18 @@ float rata2(mahasiswa m){
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![output2](https://github.com/daffaarief55-glitch/109082500192_Daffa-Areif-Wicaksono3/blob/main/modul3/output_unguided/output2.png?raw=true)
 
 
 Pada soal ini, kita diminta membuat program untuk menyimpan nama dan kode mata pelajaran. Program dibuat dalam tiga file, yaitu pelajaran.h untuk membuat struktur data, pelajaran.cpp untuk mengisi fungsi, dan main.cpp untuk menjalankan program. Contohnya, mata pelajaran Struktur Data memiliki kode STD.
 
-###  (isi dengan soal unguided 3)
+### 3. (. Buatlah program dengan ketentuan :
+- 2 buah array 2D integer berukuran 3x3 dan 2 buah pointer integer
+- fungsi/prosedur yang menampilkan isi sebuah array integer 2D
+- fungsi/prosedur yang akan menukarkan isi dari 2 array integer 2D pada posisi tertentu
+STRUKTUR DATA 35
+- fungsi/prosedur yang akan menukarkan isi dari variabel yang ditunjuk oleh 2 buah
+pointer)
 
 ### 1.matriks.h
 
@@ -335,14 +341,13 @@ int main(){
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![output3](https://github.com/daffaarief55-glitch/109082500192_Daffa-Areif-Wicaksono3/blob/main/modul3/output_unguided/output3.png?raw=true)
 
 
 kita mempelajari cara memakai array dua dimensi dan pointer di C++. Program digunakan untuk menampilkan isi array, menukar nilai dari dua array pada posisi yang dipilih, dan menukar nilai dua variabel dengan bantuan pointer.
 
 ## Kesimpulan
-...
-
+Dari ketiga soal tersebut, kita belajar dasar pemrograman C++ seperti penggunaan struct, array, ADT, dan pointer. Kita juga belajar cara menyimpan data, menampilkan data, menghitung nilai akhir, dan menukar nilai variabel. Tugas ini membantu kita memahami penggunaan fitur-fitur tersebut dalam membuat program.
 ## Referensi
 [1] Tim Penyusun. (t.t.). Modul 3: Abstract Data Type (ADT). Buku Ajar Praktikum Struktur Data, hlm. 32–35. (Modul praktikum yang diberikan pada perkuliahan).
 <br>...
